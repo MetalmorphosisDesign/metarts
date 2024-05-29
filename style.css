@@ -1,0 +1,347 @@
+body {
+    background: #121212;
+    color: #F8F8FF;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Base H1 size for XS devices */
+h1 {
+    font-size: 1.5rem;
+
+    /* Adjusted base size for XS screens */
+    font-weight: 700;
+    color: #F8F8FF;
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 361px) {
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Adjusting H1 size for SM devices (576px) and up */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 1.8125rem;
+        font-weight: 700;
+
+        /* Adjusted size for SM screens */
+    }
+}
+
+/* Further adjustments for medium breakpoints */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.8125rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for larger breakpoints */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.4375rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra large breakpoints */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 2.875rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra extra large breakpoints */
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Base H1 size for XS devices */
+h2 {
+    font-size: 1.375rem;
+
+    /* Adjusted base size for XS screens */
+    font-weight: 700;
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 361px) {
+    h2 {
+        font-size: 1.5625rem;
+        font-weight: 700;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Adjusting H1 size for SM devices (576px) and up */
+@media (min-width: 576px) {
+    h2 {
+        font-size: 2.1875rem;
+        font-weight: 700;
+
+        /* Adjusted size for SM screens */
+    }
+}
+
+/* Further adjustments for medium breakpoints */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.375rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for larger breakpoints */
+@media (min-width: 992px) {
+    h2 {
+        font-size: 2.6875rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra large breakpoints */
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 3.125rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra extra large breakpoints */
+@media (min-width: 1400px) {
+    h2 {
+        font-size: 3.75rem;
+        font-weight: 700;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Base H1 size for XS devices */
+h3 {
+    font-size: 1.125rem	;
+
+    /* Adjusted base size for XS screens */
+    font-weight: 700;
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 361px) {
+    h3 {
+        font-size: 1.25rem;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 576px) {
+    h3 {
+        font-size: 1.75rem;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Further adjustments for medium breakpoints */
+@media (min-width: 768px) {
+    h3 {
+        font-size: 1.875rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for larger breakpoints */
+@media (min-width: 992px) {
+    h3 {
+        font-size: 2.5rem;
+
+        /* Original size for LG screens and up */
+    }
+}
+
+/* Further adjustments for extra large breakpoints */
+@media (min-width: 1200px) {
+    h3 {
+        font-size: 2.875rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+.lead {
+    font-size: 1.1875rem;
+    color: #F8F8FF;
+
+    /* Suitable for screens smaller than 360px */
+    /* Add any other base styles for the paragraph element here */
+}
+
+/* Specific adjustment for devices with a max-width of 360px */
+@media (min-width: 361px) {
+    .lead {
+        font-size: 1.1875rem;
+
+        /* Slightly smaller for very small screens */
+    }
+}
+
+/* Adjusting .lead size for SM devices (576px) and up */
+@media (min-width: 576px) {
+    .lead {
+        font-size: 1.1875rem;
+
+        /* Adjusted size back to normal for SM screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 1.25rem;
+
+        /* Adjust if necessary for larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .lead {
+        font-size: 1.3125rem;
+
+        /* Adjust if necessary for larger screens */
+    }
+}
+
+@media (min-width:1400px) {
+    .lead {
+        font-size: 1.375rem;
+
+        /* Adjust if necessary for larger screens */
+    }
+}
+
+p,
+ul.list-unstyled li {
+    font-size: 1rem;
+    font-family: 'Georgia', serif;
+
+    /* Suitable for screens smaller than 360px */
+    /* Add any other base styles for the paragraph element here */
+}
+
+/* Slightly larger screens (typically smartphones in portrait and landscape orientations) */
+@media (min-width: 361px) {
+    p,
+    ul.list-unstyled li {
+        font-size: 1.0625rem	;
+
+        /* Adjust font size for devices wider than 360px */
+    }
+}
+
+/* Small devices (small screen size) */
+@media (min-width: 576px) {
+    p,
+    ul.list-unstyled li {
+        font-size: 1rem;
+
+        /* Adjust font size for tablets */
+    }
+}
+
+/* Medium devices (tablets in portrait orientation) */
+@media (min-width: 768px) {
+    p,
+    ul.list-unstyled li {
+        font-size: 1.0625rem;
+
+        /* Adjust font size for tablets */
+    }
+}
+
+@media (min-width: 1200px) {
+    p,
+    ul.list-unstyled li {
+        font-size: 1.0625rem;
+
+        /* Adjust font size for tablets */
+    }
+}
+
+@media (min-width: 1400px) {
+    p,
+    ul.list-unstyled li {
+        font-size: 1.25rem;
+
+        /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 575px) {
+    .btn {
+        font-size: 0.875rem;
+    }
+}
+
+.neon-border {
+    border: 3px solid #ffde59;
+    border-radius: 7px;
+}
+
+.neon-border2 {
+    filter: drop-shadow(0px 0px 5px #08f);
+
+    /* Example using a bright blue color */
+    padding: 32px;
+
+    /* Adjusted padding */
+    background: #121212;
+
+    /* Dark background for better visibility of the glow */
+    border-radius: 15px;
+
+    /* Optional rounded corners */
+}
+
+.neon-border1 {
+    filter: drop-shadow(0px 0px 4px #ffde59);
+
+    /* Example using a bright blue color */
+    padding: 15px;
+
+    /* Adjusted padding */
+    background: #121212;
+
+    /* Dark background for better visibility of the glow */
+    border-radius: 15px;
+
+    /* Optional rounded corners */
+}
+
